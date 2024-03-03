@@ -1,0 +1,224 @@
+.frame-a-child {
+  height: 82px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.rectangle-a,
+.rectangle-a1 {
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-darkturquoise);
+}
+.rectangle-a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.rectangle-a1 {
+  z-index: 2;
+}
+.icon-yoga4,
+.inner-frame,
+.rectangle-a1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.inner-frame {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+}
+.icon-yoga4 {
+  z-index: 3;
+  object-fit: contain;
+  transform: scale(1.156);
+}
+.wrapper-icon-yoga4 {
+  height: 70px;
+  width: 85px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 3;
+}
+.home-text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+}
+.smart-fit4 {
+  margin: 0 !important;
+  height: 109px;
+  width: 236px;
+  position: absolute;
+  bottom: -22px;
+  left: 157px;
+  font-size: var(--font-size-21xl);
+  font-weight: 800;
+  font-family: var(--font-inknut-antiqua);
+  color: var(--color-midnightblue);
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 3;
+}
+.frame-a {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-60xl) var(--padding-6xs)
+    var(--padding-8xl);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.exercise-to-lose {
+  position: relative;
+  text-transform: capitalize;
+}
+.frame-c {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 60px 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blank-line,
+.burpees,
+.dynamic-and-intense {
+  margin: 0;
+}
+.sprint1 {
+  margin-bottom: 0;
+}
+.sprint {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.revolutionize-your-fitness {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.burpees-dynamic-and-container {
+  height: 504px;
+  width: 1365px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.unsplashmqvwb7kuooe-icon,
+.unsplashxqghslxyd3m-icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 1;
+}
+.unsplashmqvwb7kuooe-icon {
+  height: 348px;
+  width: 553px;
+  right: 74px;
+  bottom: -309px;
+}
+.unsplashxqghslxyd3m-icon {
+  height: 371px;
+  width: 281px;
+  bottom: -316px;
+  left: 230px;
+}
+.frame-d,
+.inner-frame-b {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-d {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.inner-frame-b {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inknut-antiqua);
+}
+.lose-weight,
+.outer-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.outer-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 18px;
+  max-width: 100%;
+}
+.lose-weight {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 337px;
+  gap: 24px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 725px) {
+  .frame-a {
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .frame-c {
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .burpees-dynamic-and-container {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,253 @@
+.icon-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkolivegreen);
+  width: 100%;
+  height: 100%;
+}
+.icon-frame1 {
+  background-color: var(--color-darkturquoise);
+  z-index: 1;
+}
+.icon-frame1,
+.icon-frame2,
+.icon-yoga8 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.icon-frame2 {
+  background-color: var(--color-darkturquoise);
+  z-index: 2;
+}
+.icon-yoga8 {
+  max-height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  transform: scale(1.156);
+}
+.wrapper-icon-yoga8 {
+  position: absolute;
+  height: calc(100% - 12px);
+  top: 5px;
+  bottom: 7px;
+  left: 27px;
+  width: 85px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-group {
+  width: 100%;
+  height: 82px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.home7,
+.smart-fit8 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  z-index: 3;
+}
+.smart-fit8 {
+  height: 109px;
+  width: 236px;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.home7 {
+  font-weight: 500;
+}
+.exercise-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  font-size: var(--font-size-18xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.smart-fit-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.exercise-to-maintain {
+  position: relative;
+  text-transform: capitalize;
+}
+.smart-fit-text1,
+.swimming-frame {
+  width: 558px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.swimming-frame {
+  width: 1204px;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-inknut-antiqua);
+}
+.swimming-swimming-is {
+  margin-bottom: 0;
+}
+.swimming-swimming-is-a-low-im {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.swimming-swimming-is-container {
+  height: 164px;
+  width: 1240px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.medium-shot-swimmer-with-goggl-icon {
+  height: 256px;
+  width: 370px;
+  position: absolute;
+  margin: 0 !important;
+  right: 147px;
+  bottom: -169px;
+  object-fit: cover;
+  z-index: 1;
+}
+.shape-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+.main-content-frame,
+.shape-frame,
+.swimming-image {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.swimming-image {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.main-content-frame {
+  margin-top: -5px;
+  width: 1324px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px 0;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.yoga-yoga-is-a-holistic-pract {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.yoga-yoga-is-container {
+  width: 1341px;
+  height: 158px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.young-woman-doing-preparation-icon {
+  height: 234px;
+  width: 398px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.young-woman-doing-preparation-wrapper {
+  width: 974px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.maintain-weight,
+.yoga-pose-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.yoga-pose-frame {
+  gap: 65px 0;
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.maintain-weight {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  overflow: hidden;
+  padding: 0 65px var(--padding-mid) 34px;
+  box-sizing: border-box;
+  gap: 197px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .maintain-weight {
+    gap: 197px 0;
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .yoga-pose-frame {
+    gap: 65px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .swimming-swimming-is-container,
+  .yoga-yoga-is-container {
+    font-size: var(--font-size-lgi);
+  }
+  .yoga-pose-frame {
+    gap: 65px 0;
+  }
+  .maintain-weight {
+    gap: 197px 0;
+  }
+}
